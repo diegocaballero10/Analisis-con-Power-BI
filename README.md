@@ -59,7 +59,12 @@ Interactúa con filtros, segmentadores y gráficos para explorar los datos.
 Power BI Desktop está disponible actualmente para Windows. En macOS y Linux puedes usar Power BI Service (la versión web) publicando el reporte en tu espacio de trabajo, aunque algunas funcionalidades pueden estar limitadas.
 
 data-visualization-workshop/
-├── Visualizacion_de_Datos.pptx   # Presentación teórica
-├── Taller_visualizacion.pbix     # Dashboard en Power BI
-├── README.md                     # Este archivo
-└── .gitignore                    # Archivos ignorados por git
+
+├── Visualizacion_de_Datos.pptx  
+# Presentación teórica
+├── Taller_visualizacion.pbix     
+# Dashboard en Power BI
+├── README.md                     
+# Este archivo
+└── .gitignore                   
+# Archivos ignorados por git
