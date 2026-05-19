@@ -1,56 +1,65 @@
-Data Visualization Workshop
-Academic project that combines a theoretical presentation on data visualization with a hands-on Microsoft Power BI dashboard. The work covers the role of visualization in big data, data analysis, data intelligence, and data science, and applies those concepts in an interactive report.
-Table of contents
+Taller de Visualización de Datos
 
-Overview
-Contents
-Theoretical presentation
-Power BI dashboard
-How to open the files
-Repository structure
-Authors
+Proyecto académico que combina una presentación teórica sobre visualización de datos con un dashboard práctico en Microsoft Power BI. El trabajo aborda el papel de la visualización en big data, análisis de datos, inteligencia de datos y ciencia de datos, aplicando estos conceptos en un reporte interactivo.
 
-Overview
-Data visualization is the bridge between raw information and actionable insight. This workshop is organized in two complementary parts:
+Tabla de contenidos
+Descripción general
+Contenido
+Presentación teórica
+Dashboard en Power BI
+Cómo abrir los archivos
+Estructura del repositorio
+Autores
+Descripción general
 
-A conceptual presentation that explains why visualization matters across big data, analytics, and data science, and introduces the levels of abstraction of information and data classification.
-A Power BI report (.pbix) that puts the theory into practice through interactive dashboards.
+La visualización de datos es el puente entre la información en bruto y el conocimiento accionable. Este taller está organizado en dos partes complementarias:
 
-Contents
-FileTypeDescriptionVisualizacion_de_Datos.pptxPowerPoint deckTheoretical foundations of data visualizationTaller_visualizacion.pbixPower BI reportInteractive dashboard built in Power BI Desktop
-Theoretical presentation
-The presentation covers the following topics:
+Una presentación conceptual que explica por qué la visualización es importante en big data, analítica y ciencia de datos, e introduce los niveles de abstracción de la información y la clasificación de los datos.
+Un reporte en Power BI (.pbix) que lleva la teoría a la práctica mediante dashboards interactivos.
+Contenido
+Archivo	Tipo	Descripción
+Visualizacion_de_Datos.pptx	Presentación PowerPoint	Fundamentos teóricos de la visualización de datos
+Taller_visualizacion.pbix	Reporte Power BI	Dashboard interactivo construido en Power BI Desktop
+Presentación teórica
 
-Importance of visualization in big data — how visualization helps organizations turn raw data into graphics that describe their behavior, supporting process improvement, cost reduction, and growth opportunities.
-Importance of visualization in data analysis — how well-designed visuals enable faster, more accurate decision-making without requiring direct interviews with customers or employees.
-Importance of visualization in data intelligence and data science — how visualization helps discard non-representative or erroneous data, identify dependent variables (and therefore redundant information), and slice data to inspect it from multiple perspectives.
-Levels of abstraction of information — a hierarchical pyramid model in which each layer builds on the one below and adds value to it.
-Data classification — how data describes empirical facts, events, and entities, and how its classification helps assign value within an organization. Classification varies by organization type.
-References — bibliography with the sources used throughout the presentation.
+La presentación cubre los siguientes temas:
 
-Power BI dashboard
-The .pbix file contains the interactive report built in Power BI Desktop as the practical part of the workshop. It applies the visualization principles discussed in the presentation: appropriate chart selection, interactive filtering, and clear visual hierarchy to communicate findings effectively.
-To explore it, open the file in Power BI Desktop (see instructions below).
-How to open the files
-Presentation (.pptx)
-Open with Microsoft PowerPoint, LibreOffice Impress, Google Slides, or Keynote.
-Power BI report (.pbix)
+Importancia de la visualización en big data — cómo la visualización ayuda a las organizaciones a transformar datos en gráficos que describen su comportamiento, apoyando la mejora de procesos, la reducción de costos y las oportunidades de crecimiento.
+Importancia de la visualización en el análisis de datos — cómo las visualizaciones bien diseñadas permiten una toma de decisiones más rápida y precisa sin necesidad de realizar entrevistas directas a clientes o empleados.
+Importancia de la visualización en inteligencia de datos y ciencia de datos — cómo la visualización ayuda a descartar datos erróneos o no representativos, identificar variables dependientes (y por tanto información redundante) y segmentar los datos para analizarlos desde múltiples perspectivas.
+Niveles de abstracción de la información — modelo jerárquico en forma de pirámide donde cada nivel se construye sobre el anterior y agrega valor a la información.
+Clasificación de datos — cómo los datos describen hechos empíricos, eventos y entidades, y cómo su clasificación ayuda a asignar valor dentro de una organización. La clasificación puede variar según el tipo de organización.
+Referencias — bibliografía con las fuentes utilizadas a lo largo de la presentación.
+Dashboard en Power BI
 
-Download and install Power BI Desktop (free) from the official Microsoft site.
-Open Taller_visualizacion.pbix directly with Power BI Desktop.
-Interact with filters, slicers, and charts to explore the data.
+El archivo .pbix contiene el reporte interactivo construido en Power BI Desktop como parte práctica del taller.
 
+El dashboard aplica los principios de visualización discutidos en la presentación:
 
-Power BI Desktop is currently available for Windows. On macOS and Linux you can use Power BI Service (the web version) by publishing the report to your workspace, although some features may be limited.
+Selección adecuada de gráficos
+Filtrado interactivo
+Jerarquía visual clara para comunicar hallazgos de manera efectiva
 
-Repository structure
+Para explorarlo, abre el archivo en Power BI Desktop (ver instrucciones abajo).
+
+Cómo abrir los archivos
+Presentación (.pptx)
+
+Puedes abrirla con:
+
+Microsoft PowerPoint
+LibreOffice Impress
+Google Slides
+Keynote
+Reporte Power BI (.pbix)
+Descarga e instala Power BI Desktop (gratuito) desde el sitio oficial de Microsoft.
+Abre Taller_visualizacion.pbix directamente con Power BI Desktop.
+Interactúa con filtros, segmentadores y gráficos para explorar los datos.
+
+Power BI Desktop está disponible actualmente para Windows. En macOS y Linux puedes usar Power BI Service (la versión web) publicando el reporte en tu espacio de trabajo, aunque algunas funcionalidades pueden estar limitadas.
+
 data-visualization-workshop/
-├── Visualizacion_de_Datos.pptx   # Theoretical presentation
-├── Taller_visualizacion.pbix     # Power BI dashboard
-├── README.md                     # This file
-└── .gitignore                    # Files ignored by git
-Authors
-
-Diego Caballero Sarmiento
-Juan Sebastián Vargas
-Daniel Mauricio Ardila
+├── Visualizacion_de_Datos.pptx   # Presentación teórica
+├── Taller_visualizacion.pbix     # Dashboard en Power BI
+├── README.md                     # Este archivo
+└── .gitignore                    # Archivos ignorados por git
